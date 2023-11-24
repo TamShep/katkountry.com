@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^963svw\.ru$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.963svw\.ru$
+RewriteRule ^(.*)$ "https\:\/\/963svw\.com\/$1" [R=301,L]
+
